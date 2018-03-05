@@ -1,0 +1,77 @@
+2018.01.08 16:23:58 INFO  [o.s.s.c.t.CeWorkerCallableImpl] Execute task | project=Test_ANT_Sonar | type=REPORT | id=AWDVZ8q-yiuYONQRkm4v
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ExtractReportStep] Analysis report extracted | compressedSize=15 KB
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Extract report | time=66ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep] SonarQube plugins:
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - C# 5.0 (csharp)
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - Java 3.13.1 (java)
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - SVN 1.3 (scmsvn)
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - Git 1.2 (scmgit)
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - JavaScript 2.11 (javascript)
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep] Global properties:
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - sonar.core.id=20180108154522
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - sonar.core.startTime=2018-01-08T15:45:22+0530
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - sonar.core.version=5.5
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - sonar.permission.template.default=default_template
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - sonar.qualitygate=1
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep] Settings for module: Test_ANT_Sonar
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - sonar.host.url=http://localhost:9000
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - sonar.projectBaseDir=C:\Users\Personal\.jenkins\workspace\Test_ANT_Sonar
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - sonar.projectKey=Test_ANT_Sonar
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - sonar.projectName=Test_ANT_Sonar
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - sonar.projectVersion=1.0
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - sonar.sourceEncoding=windows-1252
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - sonar.sources=src
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.LogScannerContextStep]   - sonar.working.directory=C:\Users\Personal\.jenkins\workspace\Test_ANT_Sonar\.sonar
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Log scanner context | time=3ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Load analysis metadata | time=1ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Build tree of components | time=7ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Validate project | time=32ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Load quality profiles | time=413ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Load Quality gate | time=25ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Load differential periods | time=44ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Load inner file and in project duplications | time=1ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.d.CrossProjectDuplicationStatusHolderImpl] Cross project duplication is disabled because it's disabled in the analysis report
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Compute cross project duplications | time=0ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Compute size measures | time=4ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Compute new coverage | time=2ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Compute coverage measures | time=1ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Compute comment measures | time=2ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Copy custom measures | time=14ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Compute duplication measures | time=1ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Compute duplication data measures | time=0ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Compute language distribution | time=1ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Compute test measures | time=0ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Compute complexity measures | time=5ms
+2018.01.08 16:23:58 INFO  [o.s.s.c.s.ComputationStepExecutor] Load measure computers | time=0ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ExecuteVisitorsStep]   Execution time for each component visitor:
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ExecuteVisitorsStep]   - LoadComponentUuidsHavingOpenIssuesVisitor | time=4ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ExecuteVisitorsStep]   - IntegrateIssuesVisitor | time=100ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ExecuteVisitorsStep]   - CloseIssuesOnRemovedComponentsVisitor | time=0ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ExecuteVisitorsStep]   - QualityModelMeasuresVisitor | time=1ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ExecuteVisitorsStep]   - NewQualityModelMeasuresVisitor | time=0ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ExecuteVisitorsStep]   - LastCommitVisitor | time=0ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ExecuteVisitorsStep]   - MeasureComputersVisitor | time=0ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Execute component visitors | time=108ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Compute measure variations | time=1ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Compute Quality Gate measures | time=1ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Compute Quality profile measures | time=0ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Generate Quality profile events | time=2ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Generate Quality gate events | time=2ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Persist components | time=9ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Persist snapshots | time=8ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Persist measures | time=133ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Persist issues | time=120ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Persist project links | time=2ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Persist events | time=4ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Persist sources | time=56ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Persist tests | time=2ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Persist cross project duplications index | time=0ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Enable snapshot | time=15ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Index components | time=36ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Purge db | time=88ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Apply permissions | time=6ms
+2018.01.08 16:23:59 INFO  [o.s.s.c.s.ComputationStepExecutor] Index issues | time=178ms
+2018.01.08 16:24:00 INFO  [o.s.s.c.s.ComputationStepExecutor] Index tests | time=495ms
+2018.01.08 16:24:00 INFO  [o.s.s.c.s.ComputationStepExecutor] Send issue notifications | time=5ms
+2018.01.08 16:24:00 INFO  [o.s.s.c.s.ComputationStepExecutor] Publish task results | time=0ms
+2018.01.08 16:24:00 INFO  [o.s.s.c.t.CeWorkerCallableImpl] Executed task | project=Test_ANT_Sonar | type=REPORT | id=AWDVZ8q-yiuYONQRkm4v | time=2064ms
